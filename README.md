@@ -27,12 +27,12 @@ S = Psse/Pnon-sse = Tnon-sse/Tsse
 10. The Y-axis performance units in this case will be "Speed-Up", i.e., dimensionless. Don't use any units that involve xxx/second.
 11. Parallel Fraction doesn't apply to SIMD parallelism, so don't compute one.
 12. Your commentary write-up (turned in as a PDF file) should tell us:
-  1. What machine you ran this on
-  2. Show the 2 tables of performances for each array size and the corresponding speedups
-  3. Show the graphs (or graph) of SIMD/non-SIMD speedup versus array size (either one graph with two curves, or two graphs each with one curve)
-  4. What patterns are you seeing in the speedups?
-  5. Are they consistent across a variety of array sizes?
-  6. Why or why not, do you think?
+    1. What machine you ran this on
+    2. Show the 2 tables of performances for each array size and the corresponding speedups
+    3. Show the graphs (or graph) of SIMD/non-SIMD speedup versus array size (either one graph with two curves, or two graphs each with one curve)
+    4. What patterns are you seeing in the speedups?
+    5. Are they consistent across a variety of array sizes?
+    6. Why or why not, do you think?
 
 ## SSE SIMD code:
 - Find starter code in the file: all04.cpp.
